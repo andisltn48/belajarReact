@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
 import LifeCycleComp from "../LifeCycleComp/LifeCycleComp";
+import Post from "../Post/Post";
 import Total from "../Total/Total";
 
 class Home extends Component {
@@ -19,9 +20,10 @@ class Home extends Component {
                 <div>
                     <Total/>
                 </div> */}
-                <div>
+                {/* <div>
                     <LifeCycleComp />
-                </div>
+                </div> */}
+                <Post />
             </div>
         )
     }
