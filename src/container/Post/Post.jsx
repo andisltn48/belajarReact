@@ -15,6 +15,10 @@ class Post extends Component{
         //         post: json
         //     })
         // })
+        this.getPostAPI();
+    }
+
+    getPostAPI = () => {
         axios.get('http://localhost:3004/posts')
         .then((res) => {
             console.log(res);
@@ -24,13 +28,21 @@ class Post extends Component{
         })
     }
 
+    handleRemove = (data) => {
+        console.log(data);
+        axios.delete(`http://localhost:3004/posts/${data}`)
+        .then((res) => {
+            this.getPostAPI();
+        })
+    }
+
     render(){
         return(
             <Fragment>
                 <p>Post With API</p>
                 {
                     this.state.post.map(post => {
-                        return <ItemPost key={post.id} title={post.title} body={post.body}  />
+                        return <ItemPost key={post.id} data={post} remove={this.handleRemove}/>
                     })
                 }
             </Fragment>
