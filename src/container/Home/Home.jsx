@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
+import LifeCycleComp from "../LifeCycleComp/LifeCycleComp";
 import Total from "../Total/Total";
 
 class Home extends Component {
     render() {
         return (
             <div >
-                <p>YT Component</p>
+                {/* <p>YT Component</p>
                 <hr />
                 <div className="d-flex">
                     <YoutubeComponent title="Vid 1" desc="ini vid 1"/>
@@ -17,6 +18,9 @@ class Home extends Component {
                 </div>
                 <div>
                     <Total/>
+                </div> */}
+                <div>
+                    <LifeCycleComp />
                 </div>
             </div>
         )

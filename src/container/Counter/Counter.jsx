@@ -32,8 +32,8 @@ class Counter extends Component {
             <Fragment>
                 <div>
                     <div className="row">
-                        <button onClick={this.handlePlus} >+</button>
-                        <button onClick={this.handleMinus} >-</button>
+                        <button className="col m-2 btn btn-primary" onClick={this.handlePlus} >+</button>
+                        <button className="col m-2 btn btn-danger" onClick={this.handleMinus} >-</button>
                     </div>
                     <div>
                         <p>Jumlah press: {this.state.count}</p>
