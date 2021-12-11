@@ -2,20 +2,38 @@
   "posts": [
     {
       "id": 1639116745767,
-      "title": "Makanan ",
+      "title": "Makanan Baru",
       "body": "Makanan adalah merupakan suatu objek bla bla",
       "userId": 1
     },
     {
-      "id": 1639116876098,
-      "title": "Hidup",
-      "body": "Hidup adalah",
+      "id": 1639117283456,
+      "title": "Minuman Baru 2",
+      "body": "Minuman merupakan suatu objek yang dapat diminum",
       "userId": 1
     },
     {
-      "id": 1639117283456,
-      "title": "Minuman",
-      "body": "Minuman merupakan suatu objek yang dapat diminum",
+      "id": 1,
+      "title": "Minum yuk",
+      "body": "blabla",
+      "userId": 1
+    },
+    {
+      "id": 1639207415679,
+      "title": "tutor 4",
+      "body": "tutor 4ni bos",
+      "userId": 1
+    },
+    {
+      "id": 1639207442560,
+      "title": "ry",
+      "body": "bbdawbdssss",
+      "userId": 1
+    },
+    {
+      "id": 1639207491171,
+      "title": "ANdilan",
+      "body": "asaasa",
       "userId": 1
     }
   ],
